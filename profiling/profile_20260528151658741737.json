@@ -1,0 +1,95 @@
+{
+    "run_id": "20260528151658741737",
+    "status": "success",
+    "stage": "profiler",
+    "row_count": 25000,
+    "column_count": 10,
+    "columns": {
+        "customer_id": {
+            "dtype": "int64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 20000,
+            "min": 100001.0,
+            "max": 120000.0,
+            "mean": 109993.94248,
+            "median": 109982.5,
+            "std": 5762.787314509945
+        },
+        "name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 17302,
+            "top_value": "Unknown",
+            "avg_length": 13.02276
+        },
+        "age": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 49,
+            "top_value": "Unknown",
+            "avg_length": 4.125
+        },
+        "salary": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 17042,
+            "top_value": "Unknown",
+            "avg_length": 7.27744
+        },
+        "department": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 6,
+            "top_value": "HR",
+            "avg_length": 5.07268
+        },
+        "joining_date": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 2503,
+            "top_value": "Unknown",
+            "avg_length": 9.90252
+        },
+        "performance_score": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 405,
+            "top_value": "Unknown",
+            "avg_length": 4.0622
+        },
+        "_pipeline_source": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "CloudForge",
+            "avg_length": 10.0
+        },
+        "_processed_at": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "2026-05-28 15:17:38",
+            "avg_length": 19.0
+        },
+        "_row_id": {
+            "dtype": "int64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 25000,
+            "min": 1.0,
+            "max": 25000.0,
+            "mean": 12500.5,
+            "median": 12500.5,
+            "std": 7217.022700994273
+        }
+    }
+}

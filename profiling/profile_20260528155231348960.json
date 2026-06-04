@@ -1,0 +1,318 @@
+{
+    "run_id": "20260528155231348960",
+    "status": "success",
+    "stage": "profiler",
+    "row_count": 5050,
+    "column_count": 36,
+    "columns": {
+        "incident_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 5050,
+            "top_value": "INC000001",
+            "avg_length": 8.990099009900991
+        },
+        "crime_type": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 182,
+            "top_value": "DV",
+            "avg_length": 8.993069306930693
+        },
+        "district": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 131,
+            "top_value": "Nor",
+            "avg_length": 6.687722772277228
+        },
+        "city": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 8,
+            "top_value": "Riverside",
+            "avg_length": 9.027128712871287
+        },
+        "state": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "FL",
+            "avg_length": 2.0
+        },
+        "address": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4895,
+            "top_value": "8687 Maple Dr",
+            "avg_length": 13.84950495049505
+        },
+        "latitude": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4751,
+            "min": 25.00242,
+            "max": 199.9842,
+            "mean": 40.74099492435924,
+            "median": 37.625695,
+            "std": 22.609104591069343
+        },
+        "longitude": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4727,
+            "min": -121.975849,
+            "max": 99.7873,
+            "mean": -88.75169886462699,
+            "median": -93.004967,
+            "std": 36.0010662267749
+        },
+        "incident_datetime": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4675,
+            "top_value": "07-08-2021",
+            "avg_length": 18.01089108910891
+        },
+        "officer_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 150,
+            "top_value": "OFF0069",
+            "avg_length": 7.0
+        },
+        "officer_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 128,
+            "top_value": "Jessica",
+            "avg_length": 5.997623762376238
+        },
+        "officer_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "Anderson",
+            "avg_length": 5.694455445544555
+        },
+        "badge_number": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3632,
+            "min": 1002.0,
+            "max": 9999.0,
+            "mean": 5554.343440724363,
+            "median": 5554.343440724363,
+            "std": 2515.6383245620946
+        },
+        "suspect_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 798,
+            "top_value": "SUS00130",
+            "avg_length": 8.0
+        },
+        "suspect_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "David",
+            "avg_length": 5.784752475247525
+        },
+        "suspect_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "Green",
+            "avg_length": 5.573465346534653
+        },
+        "suspect_age": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 219,
+            "min": -75.0,
+            "max": 298.0,
+            "mean": 48.56003001500751,
+            "median": 48.56003001500751,
+            "std": 38.87798784350133
+        },
+        "suspect_gender": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "top_value": "F",
+            "avg_length": 3.057029702970297
+        },
+        "suspect_race": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "Black",
+            "avg_length": 5.570891089108911
+        },
+        "victim_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 987,
+            "top_value": "VIC00545",
+            "avg_length": 8.0
+        },
+        "victim_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "Mary",
+            "avg_length": 5.787920792079208
+        },
+        "victim_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "Wright",
+            "avg_length": 5.692475247524753
+        },
+        "victim_age": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 261,
+            "min": -90.0,
+            "max": 298.0,
+            "mean": 52.22803904170364,
+            "median": 52.22803904170364,
+            "std": 45.1918547808715
+        },
+        "victim_gender": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "top_value": "Male",
+            "avg_length": 3.8778217821782177
+        },
+        "victim_phone": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3994,
+            "top_value": "(823) -15-0-9447",
+            "avg_length": 12.883960396039605
+        },
+        "weapon_used": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 13,
+            "top_value": "Hands/Feet",
+            "avg_length": 7.355841584158416
+        },
+        "severity": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 14,
+            "top_value": "4",
+            "avg_length": 3.563960396039604
+        },
+        "case_status": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "top_value": "closed",
+            "avg_length": 8.045346534653465
+        },
+        "resolution": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 9,
+            "top_value": "Arrest Made",
+            "avg_length": 10.535445544554456
+        },
+        "num_arrests": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "min": -5.0,
+            "max": 5.0,
+            "mean": 2.264705882352941,
+            "median": 2.264705882352941,
+            "std": 1.927167259606596
+        },
+        "property_loss_usd": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4592,
+            "top_value": "-16464.18",
+            "avg_length": 7.8796039603960395
+        },
+        "reported_online": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "0",
+            "avg_length": 2.42990099009901
+        },
+        "notes": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3915,
+            "top_value": "Incident at 8687 Maple Dr. Officer responded at scene.",
+            "avg_length": 54.67306930693069
+        },
+        "_pipeline_source": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "CloudForge",
+            "avg_length": 10.0
+        },
+        "_processed_at": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "2026-05-28 15:52:44",
+            "avg_length": 19.0
+        },
+        "_row_id": {
+            "dtype": "int64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 5050,
+            "min": 1.0,
+            "max": 5050.0,
+            "mean": 2525.5,
+            "median": 2525.5,
+            "std": 1457.9537601263858
+        }
+    }
+}

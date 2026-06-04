@@ -1,0 +1,318 @@
+{
+    "run_id": "20260604121850103816",
+    "status": "success",
+    "stage": "profiler",
+    "row_count": 5250,
+    "column_count": 36,
+    "columns": {
+        "incident_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 5050,
+            "top_value": "INC000008",
+            "avg_length": 8.99047619047619
+        },
+        "crime_type": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 182,
+            "top_value": "Fire Setting",
+            "avg_length": 8.98952380952381
+        },
+        "district": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 131,
+            "top_value": "Nor",
+            "avg_length": 6.680761904761905
+        },
+        "city": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 8,
+            "top_value": "Riverside",
+            "avg_length": 9.026666666666667
+        },
+        "state": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "FL",
+            "avg_length": 2.0
+        },
+        "address": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4895,
+            "top_value": "1033 Lincoln St",
+            "avg_length": 13.84095238095238
+        },
+        "latitude": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4751,
+            "min": 0.0,
+            "max": 199.9842,
+            "mean": 38.77482379809524,
+            "median": 36.385098,
+            "std": 24.318967804511047
+        },
+        "longitude": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4727,
+            "min": -121.975849,
+            "max": 99.7873,
+            "mean": -83.72997200704762,
+            "median": -92.98371,
+            "std": 41.438263185464955
+        },
+        "incident_datetime": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4676,
+            "top_value": "Unknown",
+            "avg_length": 17.82057142857143
+        },
+        "officer_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 150,
+            "top_value": "OFF0015",
+            "avg_length": 7.0
+        },
+        "officer_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 128,
+            "top_value": "Jessica",
+            "avg_length": 5.996380952380952
+        },
+        "officer_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 30,
+            "top_value": "Anderson",
+            "avg_length": 5.691047619047619
+        },
+        "badge_number": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3632,
+            "min": 0.0,
+            "max": 9999.0,
+            "mean": 5228.2430476190475,
+            "median": 5278.0,
+            "std": 2836.2820675040894
+        },
+        "suspect_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 799,
+            "top_value": "Unknown",
+            "avg_length": 7.845714285714286
+        },
+        "suspect_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 31,
+            "top_value": "Unknown",
+            "avg_length": 6.089714285714286
+        },
+        "suspect_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 31,
+            "top_value": "Unknown",
+            "avg_length": 5.886285714285714
+        },
+        "suspect_age": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 219,
+            "min": -75.0,
+            "max": 298.0,
+            "mean": 38.30133333333333,
+            "median": 37.0,
+            "std": 43.41302411846512
+        },
+        "suspect_gender": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "top_value": "Unknown",
+            "avg_length": 4.674095238095238
+        },
+        "suspect_race": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "Unknown",
+            "avg_length": 6.175428571428571
+        },
+        "victim_id": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 988,
+            "top_value": "Unknown",
+            "avg_length": 7.951047619047619
+        },
+        "victim_first_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 31,
+            "top_value": "Unknown",
+            "avg_length": 5.929714285714286
+        },
+        "victim_last_name": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 31,
+            "top_value": "Unknown",
+            "avg_length": 5.748
+        },
+        "victim_age": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 261,
+            "min": -90.0,
+            "max": 298.0,
+            "mean": 46.74552380952381,
+            "median": 44.0,
+            "std": 48.252183356488935
+        },
+        "victim_gender": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 12,
+            "top_value": "Unknown",
+            "avg_length": 4.446095238095238
+        },
+        "victim_phone": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3995,
+            "top_value": "Unknown",
+            "avg_length": 11.068190476190477
+        },
+        "weapon_used": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 14,
+            "top_value": "Unknown",
+            "avg_length": 6.798285714285714
+        },
+        "severity": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 15,
+            "top_value": "4",
+            "avg_length": 3.9727619047619047
+        },
+        "case_status": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 13,
+            "top_value": "Unknown",
+            "avg_length": 8.196761904761905
+        },
+        "resolution": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 10,
+            "top_value": "Unknown",
+            "avg_length": 9.810285714285714
+        },
+        "num_arrests": {
+            "dtype": "float64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 11,
+            "min": -5.0,
+            "max": 5.0,
+            "mean": 2.1186666666666665,
+            "median": 2.0,
+            "std": 2.0074670413276756
+        },
+        "property_loss_usd": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 4593,
+            "top_value": "Unknown",
+            "avg_length": 7.717714285714286
+        },
+        "reported_online": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 11,
+            "top_value": "0",
+            "avg_length": 3.002095238095238
+        },
+        "notes": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 3916,
+            "top_value": "Unknown",
+            "avg_length": 45.096380952380954
+        },
+        "_pipeline_source": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "CloudForge",
+            "avg_length": 10.0
+        },
+        "_processed_at": {
+            "dtype": "object",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 1,
+            "top_value": "2026-06-04 12:19:04",
+            "avg_length": 19.0
+        },
+        "_row_id": {
+            "dtype": "int64",
+            "null_count": 0,
+            "null_percent": 0.0,
+            "unique_count": 5250,
+            "min": 1.0,
+            "max": 5250.0,
+            "mean": 2625.5,
+            "median": 2625.5,
+            "std": 1515.6887873175021
+        }
+    }
+}

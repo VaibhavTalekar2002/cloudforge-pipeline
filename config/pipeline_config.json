@@ -1,0 +1,34 @@
+{
+  "pipeline_name": "CloudForge Analytics Pipeline",
+  "version": "1.0.0",
+  "environment": "development",
+
+  "s3": {
+    "bucket": "cloudforge-pipeline-vaibhav",
+    "layers": {
+      "raw": "raw/",
+      "staging": "staging/",
+      "processed": "processed/",
+      "logs": "logs/",
+      "archive": "archive/"
+    }
+  },
+
+  "validation": {
+    "null_threshold_percent": 30,
+    "duplicate_action": "remove",
+    "min_row_count": 100
+  },
+
+  "transformation": {
+    "output_format": "csv",
+    "compression": "none",
+    "date_format": "%Y-%m-%d"
+  },
+
+  "logging": {
+    "level": "INFO",
+    "save_to_file": true,
+    "log_dir": "logs/"
+  }
+}
