@@ -18,7 +18,7 @@ pipeline = ETLPipeline(config=config, logger=logger)
 s3 = S3Handler(config=config, logger=logger)
 
 st.set_page_config(
-    page_title="CloudForge Platform",
+    page_title="CloudForge",
     page_icon="CF",
     layout="wide"
 )
